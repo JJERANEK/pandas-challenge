@@ -13,7 +13,7 @@ This analysis will use Python and Pandas inside of Jupyter Notebook. These tasks
 ## Process
 
 Before beginning processing, the correct dependencies and files must be imported and read. Since there are two csv files involved in this analysis, those csv files must also be merged into a single DataFrame.
-![Dependencies CSV](Resources/Dependencies_CSV.jpg)
+![Dependencies CSV](PyCitySchools/Resources/Dependencies_CSV.jpg)
 
 ### District Summary
 
@@ -26,9 +26,9 @@ The first step in processing the data for analysis is to create a District Summa
 - % passing math (the percentage of students who passed math)
 - % passing reading (the percentage of students who passed reading)
 - % overall passing (the percentage of students who passed math AND reading)
-![District Summary 1](Resources/District_Summary_1.jpg)
-![District Summary 2](Resources/District_Summary_2.jpg)
-![District Summary DataFrame](Resources/District_Summary_DataFrame.jpg)
+![District Summary 1](PyCitySchools/Resources/District_Summary_1.jpg)
+![District Summary 2](PyCitySchools/Resources/District_Summary_2.jpg)
+![District Summary DataFrame](PyCitySchools/Resources/District_Summary_DataFrame.jpg)
 
 ### School Summary
 
@@ -43,44 +43,44 @@ Next, a DataFrame must be created to show budgets, average scores, and passing r
 - % passing math (the percentage of students who passed math)
 - % passing reading (the percentage of students who passed reading)
 - % overall passing (the percentage of students who passed math AND reading)
-![School Summary 1](Resources/School_Summary_1.jpg)
-![School Summary 2](Resources/School_Summary_2.jpg)
-![School Summary 3](Resources/School_Summary_3.jpg)
-![School Summary 4](Resources/School_Summary_4.jpg)
-![School Summary DataFrame](Resources/School_Summary_DataFrame.jpg)
+![School Summary 1](PyCitySchools/Resources/School_Summary_1.jpg)
+![School Summary 2](PyCitySchools/Resources/School_Summary_2.jpg)
+![School Summary 3](PyCitySchools/Resources/School_Summary_3.jpg)
+![School Summary 4](PyCitySchools/Resources/School_Summary_4.jpg)
+![School Summary DataFrame](PyCitySchools/Resources/School_Summary_DataFrame.jpg)
 
 ### Highest-Performing and Lowest-Performing Schools (by % Overall Passing)
 
 Sorting the School Summary DataFrame will allow us to see the highest-performing schools and the lowest-performing schools by their overall passing percentages.
-![Highest-Performing Schools](Resources/Highest_Performing_Schools.jpg)
-![Lowest-Performing Schools](Resources/Lowest_Performing_Schools.jpg)
+![Highest-Performing Schools](PyCitySchools/Resources/Highest_Performing_Schools.jpg)
+![Lowest-Performing Schools](PyCitySchools/Resources/Lowest_Performing_Schools.jpg)
 
 ### Scores by Grade
 
 In order to check for any trends across grades for each of the schools in the district, two other DataFrame must be created, one for average math scores and one for average reading scores, each separated by grade.
-![Math Scores by Grade](Resources/Math_Scores_Grade.jpg)
-![Math Scores by Grade DataFrame](Resources/Math_Scores_Grade_DataFrame.jpg)
-![Reading Scores by Grade](Resources/Reading_Scores_Grade.jpg)
-![Reading Scores by Grade DataFrame](Resources/Reading_Scores_Grade_DataFrame.jpg)
+![Math Scores by Grade](PyCitySchools/Resources/Math_Scores_Grade.jpg)
+![Math Scores by Grade DataFrame](PyCitySchools/Resources/Math_Scores_Grade_DataFrame.jpg)
+![Reading Scores by Grade](PyCitySchools/Resources/Reading_Scores_Grade.jpg)
+![Reading Scores by Grade DataFrame](PyCitySchools/Resources/Reading_Scores_Grade_DataFrame.jpg)
 
 ### Scores by School Spending
 
 Since every school has a different budget, in order to look for trends based on spending, the schools need to be separated into categories based on spending. For this purpose, the schools can be separated into four groups based on their per-student budgets (<$585, $585-$630, $630-$645, and $645-$680). Once the schools are placed into categories, we find the averages per spending range, and then we can look at the cateogires as a whole for specific trends in score outcomes based on per-student spending.
-![Scores by Spending 1](Resources/Scores_Spending_1.jpg)
-![Scores by Spending 2](Resources/Scores_Spending_2.jpg)
-![Scores by Spending 3](Resources/Scores_Spending_3.jpg)
+![Scores by Spending 1](PyCitySchools/Resources/Scores_Spending_1.jpg)
+![Scores by Spending 2](PyCitySchools/Resources/Scores_Spending_2.jpg)
+![Scores by Spending 3](PyCitySchools/Resources/Scores_Spending_3.jpg)
 
 ### Scores by School Size
 
 In the same way as the previous split, the Per_Student_Summary DataFrame can be split into categories of school size.
-![Scores by Size 1](Resources/Scores_Size_1.jpg)
-![Scores by Size 2](Resources/Scores_Size_2.jpg)
-![Scores by Size 3](Resources/Scores_Size_3.jpg)
+![Scores by Size 1](PyCitySchools/Resources/Scores_Size_1.jpg)
+![Scores by Size 2](PyCitySchools/Resources/Scores_Size_2.jpg)
+![Scores by Size 3](PyCitySchools/Resources/Scores_Size_3.jpg)
 
 ### Scores by School Type
 
 The district has both Charter schools and District schools. In order to see if one type of school is performing better than the other, a new DataFrame must be created to show the average scores by school type.
-![Scores by School Type](Resources/Scores_Type.jpg)
+![Scores by School Type](PyCitySchools/Resources/Scores_Type.jpg)
 
 ## Analysis Summary
 
